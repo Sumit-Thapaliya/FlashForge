@@ -1,0 +1,36 @@
+# Gradle and Android build output
+.gradle/
+**/build/
+**/outputs/
+
+# Local Android SDK configuration (machine-specific)
+local.properties
+
+# Android Studio / IntelliJ user state
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Native build intermediates
+.externalNativeBuild/
+.cxx/
+
+# Generated packages: keep APKs out of source history; attach them to GitHub Releases
+*.apk
+*.aab
+
+# Signing material and secrets — NEVER commit these
+*.jks
+*.keystore
+key.properties
+secrets.properties
+
+# OS/editor clutter
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+captures/
+
+*.hprof
